@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RestclientAppApplication<restclient-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.wdrap.restclient_app.RestclientAppApplication",
+            "projectName": "restclient-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RestcontrollerApplication<restcontroller>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.wdrap.restcontroller.RestcontrollerApplication",
+            "projectName": "restcontroller",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
