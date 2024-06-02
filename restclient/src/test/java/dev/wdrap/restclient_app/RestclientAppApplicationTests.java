@@ -8,6 +8,7 @@ class RestclientAppApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// useful test if green this means the springapplication will run
 	}
 
 }
